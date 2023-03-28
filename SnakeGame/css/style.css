@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    background-color: rgb(68, 65, 65);
+
+}
+h1{
+    /* margin-left: 650px;
+    margin-right: 585px; */
+     right: 260px;
+    /* text-align: center; */
+    position: absolute;
+    font-size: 69px;
+    font-weight: bold;
+    color: rgb(210, 80, 97);
+    -webkit-text-stroke: 0.1vw rgb(210, 80, 97);
+    text-transform: uppercase;
+    font-family: 'New Tegomin', serif;
+}
+
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    height: 100%;
+    color: rgb(71, 58, 87);
+    -webkit-text-stroke: 0.1vw rgb(71, 58, 87);
+    overflow: hidden;
+    animation: animate 8s linear infinite ;
+    
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+.body{
+    background: url("../img/background.jpg"); 
+    min-height: 120vh;
+    background-size: 110vw 120vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    color: black;
+    top: 200px;
+    left: 380px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    color: black;
+    top: 250px;
+    left: 380px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+    background: linear-gradient(rgb(137, 220, 224), rgb(115, 115, 100));
+    position: absolute;
+    top : 100px;
+    right: 70px;
+    width: 90vmin;
+    height: 85vmin;
+    border: 4px solid black;
+    border-radius: 100px;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+
+}
+
+.head{
+    background: linear-gradient(rgb(92, 93, 110), rgb(5, 10, 81));
+    border: 2px solid rgb(236, 233, 236); 
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: rgb(92, 93, 110);
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(rgb(87, 17, 218), rgb(233, 233, 20));
+    border: 3px solid black;
+    border-radius: 18px;
+}
+
+.enemy1{
+    background: linear-gradient(rgb(224, 178, 110), rgb(159, 194, 69));
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.enemy2{
+    background: linear-gradient(rgb(218, 171, 101), rgb(159, 194, 69));
+    border: 3px solid black;
+    border-radius: 5px;
+}

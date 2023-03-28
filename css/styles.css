@@ -1,0 +1,424 @@
+
+body{
+    background-color: #F7C8E0;
+}
+
+.carousel-btn-edit
+{
+    color: #393053;
+}
+.carousel-img
+{
+    
+    width: 40%;
+    padding: 10%;
+    position: absolute;
+    left: 50%;
+    margin: 5% auto;
+}
+
+.carousel-elements
+{
+    height: 400px;
+    align-items: center;
+    background-color: #B4E4FF;
+}
+
+.car1-btn
+{
+    background-color: #7B2869;
+}
+.carousel-text
+{
+    margin: 20% 20%;
+}
+
+.check-input
+{
+    border-style: groove;
+    border: #3E54AC;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+.footer-link
+{
+    color: aliceblue;
+}
+.form-control
+{
+    margin: auto 20px  auto;
+}
+
+.form-h1
+{
+    text-align: center;
+    margin: 2% auto 5%;
+
+}
+
+.form-h2
+{
+    text-align: center;
+}
+
+.form-labels
+{
+    padding: 2% 2%;
+}
+
+.form-container
+{
+    background-color: #EDF1D6;
+}
+
+.hr-part
+{
+    border: dotted;
+    width: 20%;
+    border-bottom: none;
+    align-content: center;
+    margin: 100px auto;
+    padding-right: 5%;
+    color: #7B2869;
+}
+.intro-img
+{
+    margin-top: 18%;
+    width: 90%;
+}
+.intro-text
+{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.last
+{
+    text-align: center;
+    padding: auto 5%;
+    line-height: 2rem;
+    word-spacing: 20px;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+    position: absolute;
+    left: 10px;
+}
+
+.navbar-nav
+{
+    position: absolute;
+    right:10px;
+    
+}
+
+.ratings
+{
+    height: 400px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.rate-heading
+{
+    margin-top: 0%;
+    padding-bottom: 10%;
+}
+
+.rate-icon
+{
+    size-adjust: 30px;
+    margin-bottom: 5%;
+    color: white
+}
+
+.rate-icon:hover
+{
+    color: #E384FF;
+}
+.rate-text
+{
+    text-decoration: none;
+}
+.row1
+{
+    padding: 10% auto 10% auto;
+    margin-bottom: 5%;
+}
+
+.row2
+{
+    padding: 10% auto 10% auto;
+}
+
+.row1-img
+{
+
+}
+.search-button
+{
+    margin-right: 30px;
+}
+
+.share-exp
+{
+    border-color: #3E54AC;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+.togglerr
+{
+    position: absolute;
+    right: 10%;
+}
+share-exp:hover
+{
+    color: blueviolet;
+}
+
+#copyright
+{
+    color:#F7C8E0;
+    margin-bottom: 0%;
+}
+#footer
+{
+    background-color: #4D455D;
+    margin-bottom: 0%;
+
+}
+#intro
+{
+    height: 450px;
+    background-color: #E384FF;
+}
+
+#rate
+{
+    background-color: #E5D1FA;
+}
+
+
+
+/*  TIC TAC TOE  */
+
+.tic-body
+{
+    background-color: #FD8A8A;
+}
+
+.tic-h1
+{
+    text-align: center;
+    font-size: 700%;
+}
+
+.tic-img
+{
+    margin: 10% 30%;
+    align-items: center;
+    width: 60%;
+}
+
+.tic-h2
+{
+    margin: 10% 10%;
+    text-align: center;
+    font-size: 400%;
+}
+
+.tic-p
+{
+    text-align: center;
+    margin:2% 15%;
+    text-align: center;
+}
+
+.tic-btn
+{
+    width: 60%;
+    margin: 3% 20%;
+    background-color:aliceblue;
+    align-items: center;
+}
+
+#ticd
+{
+    background-color: #F1F7B5;
+    margin: 5% 5%;
+}
+
+
+
+/*   DICE GAME    */
+
+
+.dice-body
+{
+    background-color: #E5EBB2;
+}
+
+.dice-h1
+{
+    text-align: center;
+    font-size: 700%;
+}
+
+.dice-img
+{
+    margin: 10% 30%;
+    align-items: center;
+    width: 60%;
+}
+
+.dice-h2
+{
+    margin: 10% 10%;
+    font-size: 400%;
+    text-align: center;
+}
+
+.dice-p
+{
+    text-align: center;
+    margin:2% 15%;
+    text-align: center;
+}
+
+.dice-btn
+{
+    width: 60%;
+    margin: 3% 20%;
+    background-color:aliceblue;
+    align-items: center;
+}
+
+.dice-btn: hover
+{
+    color: #749F82;
+}
+
+
+#diced
+{
+    background-color: #BCE29E;
+    margin: 5% 5%;
+}
+
+/*    Shingo Shoot       */
+
+.shoot-body
+{
+    background-color: #293462;
+}
+
+.shoot-h1
+{
+    text-align: center;
+    font-size: 700%;
+    color: #EDF1D6;
+}
+
+.shoot-img
+{
+    margin: 10% 30%;
+    align-items: center;
+    width: 60%;
+}
+
+.shoot-h2
+{
+    margin: 10% 10%;
+    font-size: 400%;
+    color: #E5D1FA;
+    text-align: center;
+}
+
+.shoot-p
+{
+    text-align: center;
+    margin:2% 15%;
+    color: #B4E4FF;
+}
+
+.shoot-btn
+{
+    width: 60%;
+    margin: 3% 20%;
+    background-color:aliceblue;
+    align-items: center;
+}
+
+.shoot-btn: hover
+{
+    color: #749F82;
+}
+
+
+#shootd
+{
+    background-color: #D61C4E;
+    margin: 5% 5%;
+}
+
+/*         Snake Game         */
+
+
+.snake-body
+{
+    background-color: #BE6DB7;
+}
+
+.snake-h1
+{
+    text-align: center;
+    font-size: 700%;
+    color: #EDF1D6;
+}
+
+.snake-img
+{
+    margin: 10% 30%;
+    align-items: center;
+    width: 60%;
+}
+
+.snake-h2
+{
+    margin: 10% 10%;
+    font-size: 400%;
+    color: #E5D1FA;
+    text-align: center;
+}
+
+.snake-p
+{
+    text-align: center;
+    margin:2% 15%;
+    color: #393053;
+}
+
+.snake-btn
+{
+    width: 60%;
+    margin: 3% 20%;
+    background-color:aliceblue;
+    align-items: center;
+}
+
+.snake-btn: hover
+{
+    color: #749F82;
+}
+
+
+#snaked
+{
+    background-color: #FDD36A;
+    margin: 5% 5%;
+}
